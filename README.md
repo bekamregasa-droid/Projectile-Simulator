@@ -26,7 +26,6 @@ An interactive, browser-based 3D physics simulation built entirely with native w
 
 You can run the simulation instantly in your browser or test it on your device:
 
-*  [**Launch Live 3D Simulation**](https://bekamregasa-droid.github.io/physics-simulation-3d/)
 *  [**Download Source Code (Google Drive)**]https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
 
 ---
