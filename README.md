@@ -1,41 +1,41 @@
 # 3D Physics Simulation
 
-An interactive 3D physics engine and simulation app built for Android using Flutter. This project demonstrates real-time rigid body dynamics, collision detection, and custom physics rendering on mobile hardware.
+An interactive, browser-based 3D physics simulation built entirely with native web technologies. This project explores real-time rigid body dynamics, custom vector math, and interactive rendering directly in the browser without relying on heavy external frameworks.
 
 ---
 
 ##  Built With
 
-* **Language:** Dart
-* **Framework:** Flutter (Android)
-* **Core Tech:** Custom 3D vector math, physics state calculation, and canvas rendering
+* **Markup & Structure:** HTML5
+* **Styling & Layout:** CSS3
+* **Logic & Physics Engine:** Vanilla JavaScript (ES6+)
+* **Graphics Rendering:** HTML5 Canvas / WebGL
 
 ---
 
 ##  Features
 
-* **Real-Time Physics Engine:** Handles gravity, velocity, momentum, and restitution (bounciness) in 3D space.
-* **Collision Detection:** Efficient bounding-box and sphere-based collision algorithms optimized for mobile GPUs.
-* **Interactive Controls:** Touch gesture tracking that lets users apply forces, spawn objects, and adjust environmental variables (like gravity strength) on the fly.
-* **Smooth Performance:** Lightweight rendering pipeline engineered to maintain stable frame rates on standard Android devices.
+* **Real-Time Physics Engine:** Simulates gravity, velocity, momentum, acceleration, and elastic collisions in 3D space.
+* **Interactive Controls:** Mouse and touch event listeners that allow users to manipulate forces, drag objects, and tweak physical constants in real time.
+* **Custom Mathematical Pipeline:** Implements vector operations, matrix transformations, and collision-detection algorithms written entirely from scratch in JavaScript.
+* **Lightweight & Fast:** Zero heavy dependencies or framework overhead, ensuring smooth performance across desktop and mobile browsers.
 
 ---
 
-##  Download & Try the App
+##  Live Demo & Testing
 
-You can download and install the compiled Android APK directly to test the simulation on your device:
+You can run the simulation instantly in your browser or test it on your device:
 
-*  [**Download Physics Simulation APK (Google Drive)**]https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
-
-*(Note: Make sure "Install from Unknown Sources" is enabled on your Android device to install the APK.)*
+*  [**Launch Live 3D Simulation**](https://bekamregasa-droid.github.io/physics-simulation-3d/)
+*  [**Download Source Code (Google Drive)**]https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
 
 ---
 
-##  Running from Source
+##  How to Run Locally
 
-If you want to inspect the codebase or run the simulation locally using Flutter:
+Since this project uses pure HTML, CSS, and JS, no complex build tools or compilers are required.
 
-1. **Clone the project:**
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/bekamregasa-droid/physics-simulation-3d.git](https://github.com/bekamregasa-droid/physics-simulation-3d.git)
    cd physics-simulation-3d
