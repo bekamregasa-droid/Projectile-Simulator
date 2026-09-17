@@ -1,40 +1,42 @@
-# 3D Physics Simulation
+# Advanced Projectile Motion Simulator
 
-An interactive, browser-based 3D physics simulation built entirely with native web technologies. This project explores real-time rigid body dynamics, custom vector math, and interactive rendering directly in the browser without relying on heavy external frameworks.
-
----
-
-##  Built With
-
-* **Markup & Structure:** HTML5
-* **Styling & Layout:** CSS3
-* **Logic & Physics Engine:** Vanilla JavaScript (ES6+)
-* **Graphics Rendering:** HTML5 Canvas / WebGL
+An interactive, web-based physics engine built to visualize trajectory dynamics with high accuracy. Most online physics calculators stick to idealized, vacuum-based trajectories that ignore real-world forces. This simulator changes that by modeling complex fluid dynamics, environmental factors, and planetary physics directly in interactive 2D and 3D space.
 
 ---
 
-##  Features
+## Key Features
 
-* **Real-Time Physics Engine:** Simulates gravity, velocity, momentum, acceleration, and elastic collisions in 3D space.
-* **Interactive Controls:** Mouse and touch event listeners that allow users to manipulate forces, drag objects, and tweak physical constants in real time.
-* **Custom Mathematical Pipeline:** Implements vector operations, matrix transformations, and collision-detection algorithms written entirely from scratch in JavaScript.
-* **Lightweight & Fast:** Zero heavy dependencies or framework overhead, ensuring smooth performance across desktop and mobile browsers.
-
----
-
-##  Live Demo & Testing
-
-You can run the simulation instantly in your browser or test it on your device:
-
-*  [**Download Source Code (Google Drive)**]https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
+* **Interactive Launch Parameters:** Fine-tune initial velocity, launch angle, mass, starting height, and local gravitational acceleration using responsive sliders and input fields.
+* **Aerodynamic Drag & Lift:** Model true atmospheric conditions by tweaking drag coefficients ($C_d$), lift forces, projectile spin rates (Magnus effect), and ambient air density.
+* **Projectile Customization:** Switch seamlessly between primitive geometries (Sphere, Cube, Pyramid, Cylinder), custom colors, and styled trajectory paths (continuous lines, dashed lines, or points).
+* **Environmental & Wind Controls:** Simulate directional wind vectors across $360^\circ$, adjust wind velocity, and toggle atmospheric visual effects like rain, snow, and fog density.
+* **3D Visual Engine:** Toggle between Perspective and Top-View cameras in a fully interactive 3D viewport to inspect launch arcs from any angle.
+* **Planetary Physics Comparison:** Test launches under real celestial conditions—compare trajectories across Earth, the Moon, Mars, Venus, Jupiter, or define custom gravitational constants.
+* **Data Logging & Export:** Monitor live kinematics (kinetic energy, current height, time to peak, max range) and export raw simulation datasets as structured JSON or CSV files for post-analysis.
 
 ---
 
-##  How to Run Locally
+## Technical Overview
 
-Since this project uses pure HTML, CSS, and JS, no complex build tools or compilers are required.
+The simulator computes kinematic updates frame-by-frame by resolving force vectors acting on the projectile's mass. 
 
-1. **Clone the repository:**
+### Drag Force Equation
+$$F_d = \frac{1}{2} \cdot \rho \cdot v^2 \cdot C_d \cdot A$$
+
+Where:
+* $\rho$ = Air Density ($\text{kg/m}^3$)
+* $v$ = Velocity relative to wind ($\text{m/s}$)
+* $C_d$ = Drag Coefficient
+* $A$ = Cross-sectional area calculated from projectile shape geometry
+
+---
+
+## Quick Start & Setup
+
+### Prerequisites
+You need a modern web browser that supports WebGL for optimal 3D rendering.
+
+### Running Locally
+1. Clone this repository:
    ```bash
-   git clone [https://github.com/bekamregasa-droid/physics-simulation-3d.git](https://github.com/bekamregasa-droid/physics-simulation-3d.git)
-   cd physics-simulation-3d
+   git clone [https://github.com/your-username/projectile-motion-simulator.git](https://github.com/your-username/projectile-motion-simulator.git)
