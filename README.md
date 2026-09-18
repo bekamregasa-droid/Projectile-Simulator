@@ -1,6 +1,6 @@
 # Advanced Projectile Motion Simulator
 
-An interactive, web-based physics engine built to visualize trajectory dynamics with high accuracy. Most online physics calculators stick to idealized, vacuum-based trajectories that ignore real-world forces. This simulator changes that by modeling complex fluid dynamics, environmental factors, and planetary physics directly in interactive 2D and 3D space.
+An interactive, web-based physics engine built to visualize trajectory dynamics with high accuracy. Most online physics calculators stick to idealized, vacuum-based trajectories that ignore real-world. This simulator changes that by modeling complex fluid dynamics, environmental factors, and planetary physics directly in interactive 2D and 3D space.
 
 ---
 
