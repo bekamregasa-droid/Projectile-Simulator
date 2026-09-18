@@ -11,7 +11,7 @@ An interactive, web-based physics engine built to visualize trajectory dynamics 
 * **Projectile Customization:** Switch seamlessly between primitive geometries (Sphere, Cube, Pyramid, Cylinder), custom colors, and styled trajectory paths (continuous lines, dashed lines, or points).
 * **Environmental & Wind Controls:** Simulate directional wind vectors across $360^\circ$, adjust wind velocity, and toggle atmospheric visual effects like rain, snow, and fog density.
 * **3D Visual Engine:** Toggle between Perspective and Top-View cameras in a fully interactive 3D viewport to inspect launch arcs from any angle.
-* **Planetary Physics Comparison:** Test launches under real celestial conditions—compare trajectories across Earth, the Moon, Mars, Venus, Jupiter, or define custom gravitational constants.
+* **Planetary Physics Comparison:** Test launches under real celestial conditions compare trajectories across Earth, the Moon, Mars, Venus, Jupiter, or define custom gravitational constants.
 * **Data Logging & Export:** Monitor live kinematics (kinetic energy, current height, time to peak, max range) and export raw simulation datasets as structured JSON or CSV files for post-analysis.
 
 ---
