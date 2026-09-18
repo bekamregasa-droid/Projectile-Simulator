@@ -36,7 +36,12 @@ Where:
 You can download the app or use the html file with your browser.
 https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
 
-### Running Locally
+No installation required. Open the live simulator directly in your mobile or desktop browser:
+* **Live Web App:** [https://bekamregasa-droid.github.io/Projectile-Simulator](https://bekamregasa-droid.github.io/Projectile-Simulator)
+
+---
+Running Locally
+
 1. Clone this repository:
    ```bash
    git clone [https://github.com/bekamregasa-droid/Projectile-Simulator.git](https://github.com/bekamregasa-droid/Projectile-Simulator.git)
