@@ -18,7 +18,7 @@ An interactive, web-based physics engine built to visualize trajectory dynamics 
 
 ## Technical Overview
 
-The simulator computes kinematic updates frame-by-frame by resolving force vectors acting on the projectiled mass. 
+The simulator computes kinematic updates frame-by-frame by resolving force vectors acting on the projected mass. 
 
 ### Drag Force Equation
 $$F_d = \frac{1}{2} \cdot \rho \cdot v^2 \cdot C_d \cdot A$$
