@@ -39,4 +39,4 @@ https://drive.google.com/drive/folders/1T17M-UJvC-uhkFsvbCa3UMQb3TdWaF1n
 ### Running Locally
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/projectile-motion-simulator.git](https://github.com/your-username/projectile-motion-simulator.git)
+   git clone [https://github.com/bekamregasa-droid/Projectile-Simulator.git](https://github.com/bekamregasa-droid/Projectile-Simulator.git)
