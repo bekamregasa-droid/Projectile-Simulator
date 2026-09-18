@@ -27,7 +27,7 @@ Where:
 * $\rho$ = Air Density ($\text{kg/m}^3$)
 * $v$ = Velocity relative to wind ($\text{m/s}$)
 * $C_d$ = Drag Coefficient
-* $A$ = Cross-sectional area calculated from projectile shape geometry
+* $A$ = Cross-sectional area (calculated from projectile shape)
 
 ---
 
