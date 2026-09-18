@@ -33,8 +33,7 @@ Where:
 
 ## Quick Start & Setup
 
-### Prerequisites
-You need a modern web browser that supports WebGL for optimal 3D rendering.
+You can download the app or use the html file with your browser. 
 
 ### Running Locally
 1. Clone this repository:
