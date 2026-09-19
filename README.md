@@ -31,6 +31,10 @@ Where:
 
 ---
 
+## Demo Video
+
+https://drive.google.com/file/d/1vp3ob3Zt9LX0u4DzmpYlRZBaHbL2oex_/view?usp=drivesdk
+
 ## Quick Setup
 
 You can download the app or use the html file with your browser.
