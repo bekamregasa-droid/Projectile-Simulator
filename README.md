@@ -33,7 +33,7 @@ Where:
 
 ## Demo Video
 
-https://drive.google.com/file/d/1vp3ob3Zt9LX0u4DzmpYlRZBaHbL2oex_/view?usp=drivesdk
+https://youtu.be/v6Mq4crIzbA?si=9-qT1NBU3zxCA77Q
 
 ## Quick Setup
 
